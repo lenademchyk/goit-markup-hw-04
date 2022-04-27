@@ -140,7 +140,7 @@ ul {
 /* -------------Hero -------------*/
 
 .hero {
-  background-color: var(--primary-bg-color);
+  background-color: #c4c4c4;
   text-align: center;
   padding-top: 200px;
   padding-bottom: 200px;
@@ -259,7 +259,7 @@ ul {
   border-radius: 0px 0px 4px 4px;
 }
 
-.team .item {
+.team-item {
   color: var(--title-text-color);
   font-weight: 500;
   font-size: 16px;
@@ -307,7 +307,7 @@ ul {
   margin-right: 0;
 } */
 
-.portfolio .title {
+.portfolio-title {
   color: var(--title-text-color);
   font-size: 18px;
   line-height: 2;
@@ -316,11 +316,9 @@ ul {
   margin-bottom: 4px;
 }
 
-.portfolio .item {
+.portfolio-item {
   font-size: 16px;
   line-height: 1.19;
-
-  /* text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); */
 }
 
 .description {
