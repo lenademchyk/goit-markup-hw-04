@@ -314,6 +314,7 @@ ul {
 
 .team-card {
   padding-top: var(--card-set-gap);
+  padding-bottom: var(--card-set-gap);
 }
 
 .team-soc-link {
@@ -338,9 +339,7 @@ ul {
 .team-soc-list {
   display: flex;
   justify-content: center;
-  padding-right: var(--small-padding-gap);
-  padding-left: var(--small-padding-gap);
-  padding-bottom: var(--card-set-gap);
+  align-items: center;
 }
 
 .team-soc-item + .team-soc-item {
@@ -368,12 +367,13 @@ ul {
 }
 
 .client-link {
-  display: block;
   width: 170px;
   height: 92px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   border-radius: 4px;
   border: 1px solid var(--soc-net-icons);
-  padding: 16px 32px;
   fill: var(--soc-net-icons);
 }
 
@@ -475,12 +475,10 @@ ul {
     0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
-/* ------НЕ ЗНАЮ, ЩО зробити ACTIVE  ЧИ CURRENT !!----- */
-/* 
 .button.secondary.current {
   color: var(--main-white-color);
   background-color: var(--accent-color);
-} */
+}
 
 /* -------------Footer------------------ */
 
