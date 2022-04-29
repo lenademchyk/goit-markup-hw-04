@@ -132,6 +132,8 @@ ul {
   display: flex;
   padding-top: var(--small-padding-gap);
   padding-bottom: var(--small-padding-gap);
+  justify-content: center;
+  align-items: center;
 }
 
 .contacts-nav .link:hover,
@@ -147,8 +149,6 @@ ul {
 .nav-icons {
   margin-right: 10px;
   fill: var(--primary-text-color);
-  justify-content: center;
-  align-items: center;
 }
 
 /* -------------Hero -------------*/
